@@ -1,9 +1,9 @@
-#language: ruby
-#rvm:
+language: ruby
+rvm:
 # - 2.2
-# - jruby
-#script:
-#- echo "Show me?????"
+ - jruby
+script:
+- echo "Show me?????"
 
 deploy:
  provider: releases
