@@ -1,6 +1,13 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
-script:
-- echo "Show me?????"
+#language: ruby
+#rvm:
+# - 2.2
+# - jruby
+#script:
+#- echo "Show me?????"
+
+deploy:
+ provider: releases
+ skip_cleanup: true
+ on:
+  repo: https://github.com/bag777/GitHubTest
+  tags: true
